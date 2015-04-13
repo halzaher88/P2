@@ -19,6 +19,8 @@ header {
 header h1 {
   float: left;
   width: 570px;
+  font-size: 170%;
+  font-weight: bolder;
 }
 
 header nav {
@@ -39,6 +41,10 @@ main .left {
 main .right {
   float: right;
   width: 285px;
+}
+
+#Q1 {
+  color: green;
 }
 
 footer .left {
