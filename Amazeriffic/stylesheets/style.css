@@ -21,6 +21,11 @@ header h1 {
   width: 570px;
   font-size: 170%;
   font-weight: bolder;
+  color: DarkOrange;
+}
+
+h2 {
+  font-weight: bolder;
 }
 
 header nav {
@@ -44,7 +49,23 @@ main .right {
 }
 
 #Q1 {
-  color: green;
+  background-color: #E0D22E;
+  padding: 3px;
+}
+
+#Q2 {
+  background-color: green;
+  padding: 3px;
+}
+
+#Q3 {
+  background-color: #E0D22E;
+  padding: 3px;
+}
+
+#Q4 {
+  background-color: green;
+  padding: 3px;
 }
 
 footer .left {
