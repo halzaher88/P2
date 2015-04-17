@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>1. CSS Selector Practice</title>
+    <style>
+    div.relevant {color:green;
+        font-weight:bold;
+    }
+    p:nth-child(2), p:nth-child(4){
+        color: green;
+        font:bold;
+        text-decoration: underline;
+        padding: .5em;
+        border: thin solid;
+        background-color: yellow;
+        width: 15%;
+        margin-left: auto;margin-right: auto;
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS Selector Practice, Ex. 1</h1>
+    <h2 class="important">Hi again</h2>
+    <p class="a">Random unattached paragraph</p>
+    <div class="relevant">
+        <p class="a">first</p>
+        <p class="a">second</p>
+        <p>third</p>
+        <p>fourth</p>
+        <p class="a">fifth</p>
+        <p class="a">sixth</p>
+        <p>seventh</p>
+    </div>
+</body>
+</html>
