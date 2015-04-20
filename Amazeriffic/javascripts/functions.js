@@ -20,10 +20,11 @@ var isArmstrong = function(n){
 //Req. B
 var allArmstrongs = function(){
 	var calNum;
+	var totalNum = 100000;
 	var result = " ";
 	var str = " ";
 	var  arr = [ ];
-	for(var i=0; i<100000; ++i){
+	for(var i=0; i<totalNum; ++i){
 		calNum = String(i);
 
 		for(var h=0; h<calNum.length; ++h) {
