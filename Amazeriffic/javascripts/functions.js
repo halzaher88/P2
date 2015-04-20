@@ -1,4 +1,3 @@
-
 //Pro. #2
 // Req. A
 var isArmstrong = function(n){
